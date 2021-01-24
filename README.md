@@ -65,39 +65,18 @@ In the following pictures of some of our printed consumables are shown.
 | swab | ![swab](figures/printed_prototypes/swab.jpg) |
 | tube | ![tube](figures/printed_prototypes/tube.jpg) |
 
-In the following table, the printing times and costs of the consumables is shown.
+In the following, we analyze the cost of our printed consumables and compare these to market prices. The market prices where given by [Bio.Kitchen](https://www.utum-bio-kitchen.de/). The complete calculation sheet can be found [here](data/TC_Calculation.xlsx). None of the calculation includes labor costs.
+![price comparison](figures/graphs/price_comparison.png)
 
-|Resin            |Name                             |Density     |FIELD4    |Price per Liter|FIELD6          |FIELD7           |FIELD8      |
-|-----------------|---------------------------------|------------|----------|---------------|----------------|-----------------|------------|
-|                 |Surgical Guide Resin             |            |          |220            |                |                 |            |
-|                 |Phrozen Beige Flex               |            |          |84.5           |                |                 |            |
-|                 |                                 |            |          |               |                |                 |            |
-|**Micropipette Tips**|**Name**                     |**Volume [m^3]**|**Volume [L]**|**Length [mm]**    |**Price/Part [EUR]**|**Time / Part [min]**|**Parts/Print** |
-|                 |L30                              |1.08E-07    |0.00      |30             |0.091598        |141.7            |312         |
-|                 |L50                              |2.99E-07    |0.00      |50             |0.2522325       |234              |112         |
-|                 |L85                              |6.68E-07    |0.01      |85             |0.564122        |390              |72          |
-|                 |                                 |            |0.00      |               |                |                 |            |
-|**Swabs**            |**Name**                         |**Volume [m^3]**|**Volume [L]**|**Length [mm]**    |**Price/Part [EUR]**|**Time / Part [min]**|**Parts/Print** |
-|                 |Honeybee Swab (Hexagonal Pattern)|1.41E-06    |0.01      |               |3.1042          |702              |209         |
-|                 |Double Helix Swab                |1.48E-06    |0.01      |               |3.2472          |702              |209         |
-|                 |Circular Pattern Swab            |1.42E-06    |0.01      |               |3.1152          |702              |209         |
-|                 |                                 |            |          |               |                |                 |            |
-|                 |Packaging tube swabs             |            |0.00      |               |0               |                 |            |
-|                 |                                 |            |          |               |                |                 |            |
-|**Spin Column**      |**Name**                         |**Volume [m^3]**|**Volume [L]**|**Length [mm]**    |**Price/Part [EUR]**|**Time / Part [min]**|**Parts/Print** |
-|                 |Inner Tube                       |1.09E-06    |0.01      |               |0.91767         |161.2            |8           |
-|                 |Outer Tube                       |1.88E-06    |0.02      |               |1.5886          |196.3            |28          |
-|                 |                                 |            |          |               |                |                 |            |
-|**Tubes**            |**Name**                         |**Volume [m^3]**|**Volume [L]**|**Length [mm]**    |**Price/Part [EUR]**|**Time / Part [min]**|**Parts/Print** |
-|                 |Cylindrical Tube 1.5ml           |1.43E-05    |0.14      |               |12.0940118      |192.4            |12          |
-|                 |                                 |            |          |               |                |                 |            |
-|                 |Tube 1.5ml                       |1.35E-06    |0.01      |               |1.14413         |202.8            |12          |
+From this figure, it can be seen that our production prices are lower for swabs and 0.2 ml tubes, but higher for the other parts. However, we expect that ordering resin in larg amounts can further reduce the prices of our solution.
 
+The next figure shows the amount of single consumables which can be produced with one of our tables in one day.
+![producable](figures/graphs/producable_consumables_per_day_line.png)
 
-From the print times and parts/print of the table, it can be seen that one printer is not able to produce the desired amount of
-plastic consumables for one laboratory. However, this is not the goal of our project. Instead, we want to bypass short outages of
-some plastic consumables. We expect that such outages are foreseeable and the production of these items can already start in advance.
+The red line indicated the amount of consumables needed for a single day. That means, our solution is not able to completely replace all kind of consumables without any lead time. However, we assume that shortages are known in advance and only last for a couple of days. If this is the case, our solution is able to bridge these shortages.
 
-TODO: Ausrechnen für welche plastic consumables wieviele am Tag produziert werden können.
+The next figure shows the money which can be saved per day and printer by producing consumables while there is no shortage.
+![money saved](figures/graphs/savings_per_day_and_printer.png)
+The most money can be saved if swabs are produced. However, since we can print more swabs than needed per day, merely printing swabs is not the way to go.
 
 ## Discussion and Outlook
