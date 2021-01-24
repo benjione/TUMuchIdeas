@@ -58,13 +58,12 @@ the consumables can be packaged into sterilized pouches.
 
 In the following pictures of some of our printed consumables are shown.
 
-![pipette](figures/printed_prototypes/pipette.jpg)
-
-![spin_column](figures/printed_prototypes/spin_column.jpg)
-
-![swab](figures/printed_prototypes/swab.jpg)
-
-![tube](figures/printed_prototypes/tube.jpg)
+| Name | Image |
+|-----------------|---------------------------------|
+| pipette | ![pipette](figures/printed_prototypes/pipette.jpg) |
+| spin column | ![spin_column](figures/printed_prototypes/spin_column.jpg) |
+| swab | ![swab](figures/printed_prototypes/swab.jpg) |
+| tube | ![tube](figures/printed_prototypes/tube.jpg) |
 
 In the following table, the printing times and costs of the consumables is shown.
 
