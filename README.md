@@ -1,5 +1,5 @@
 # TUMuchIdeas
-Technical Project Description of the TUM techchallenge to target the shortage of plastic consumables for COVID-19 PCR tests.
+This is the technical project description of the [TUM techchallenge](http://techchallenge.de/) to target the shortage of plastic consumables for COVID-19 PCR tests.
 
 ## About us
 
@@ -77,10 +77,10 @@ In the following pictures of some of our printed consumables are shown.
 
 | Name | Image |
 |-----------------|---------------------------------|
-| pipette | ![pipette](figures/printed_prototypes/pipette.jpg) |
-| spin column | ![spin_column](figures/printed_prototypes/spin_column.jpg) |
-| swab | ![swab](figures/printed_prototypes/swab.jpg) |
-| tube (1.5 ml) | ![tube](figures/printed_prototypes/tube_1.5ml.jpg) |
+| pipette | ![pipette](figures/printed_prototypes/pipette.png) |
+| spin column | ![spin_column](figures/printed_prototypes/spin_column.png) |
+| swab | ![swab](figures/printed_prototypes/swab.png) |
+| tube (1.5 ml) | ![tube](figures/printed_prototypes/tube_1.5ml.png) |
 | tube (0.2 ml) | ![tube](figures/printed_prototypes/tube_0.2ml.png) |
 
 In the following, we analyze the cost of our printed consumables and compare these to market prices. The market prices where given by [Bio.Kitchen](https://www.utum-bio-kitchen.de/). The complete calculation sheet can be found [here](data/TC_Calculation.xlsx). None of the calculation includes labor costs.
