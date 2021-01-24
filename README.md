@@ -56,9 +56,15 @@ the consumables can be packaged into sterilized pouches.
 
 ## Results
 
-In the following pictures some of our printed consumables are shown.
+In the following pictures of some of our printed consumables are shown.
 
-TODO: Bilder der consumables
+![pipette](figures/printed_prototypes/pipette.jpg)
+
+![spin_column](figures/printed_prototypes/spin_column.jpg)
+
+![swab](figures/printed_prototypes/swab.jpg)
+
+![tube](figures/printed_prototypes/tube.jpg)
 
 In the following table, the printing times and costs of the consumables is shown.
 
