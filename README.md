@@ -1,6 +1,12 @@
 # TUMuchIdeas
 This is the technical project description of the [TUM techchallenge](http://techchallenge.de/) to target the shortage of plastic consumables for COVID-19 PCR tests.
 
+# Table of Contents
+1. [About us](#About-us)
+2. [Brief Introduction and our Solution Approach](#Brief-Introduction-and-our-Solution-Approach)
+3. [Materials and Methods](#Materials-and-Methods)
+4. [Discussion and Outlook](#Discussion-and-Outlook)
+
 ## About us
 
 We are a team of 4 highly motivated students and have known each other for over 3 years. We have diverse backgrounds in technology (electrical/mechanical engineering & computer science) and management (TUM-BWL). We joint our forces to help to overcome the shortages of plastic consumables for PCR tests in Ghana.
@@ -46,20 +52,17 @@ Afterwards, the printing can be started.
 For the printing we use the [surgical guide resin](https://dental.formlabs.com/de/shop/materials/surgical-guide-resin/) from Formlabs for the swabs and
 the [Anycubic transparent 3D printer resin](https://www.anycubic.com/collections/uv-resin/products/colored-uv-resin-for-photon-series?variant=34622234362018) from Anycubic for the other parts.
 
-### Isopropyl Bath
+### Post Processing
 
-Post processing consists of two parts: Rinsing of excess material and UV curing.
-For rinsing the excess resin we put the printed model into an isopropyl bath.
+Post processing plays a very important role in SLA printing. It augments the surface quality of the parts, cleans excess resin off and hardens the part. Post processing can be divided into 2 steps: Isopropyl bath and UV Curing.
 
-TODO: Wie lange muss das Teil drinnen bleiben?
+#### Isopropyl Bath
 
-### UV chamber
+Right after a SLA print the surface of the parts is coated with a layer of liquid resin. An isopropyl bath for an approximate 30 minute duration, helps to get this resin off. After the isopropyl bath follows the UV curing.
 
-For UV curing we build a custom designed UV chamber. It consists of a trash can out of metal,
-where we put a cord with 2 UV lamps through the lid. Both UV lamps are 405 nm lamps.
-The model than put on a glass plate which is then put into the UV chamber.
+#### UV chamber
 
-TODO: Wie lange dauert der Prozess?
+UV curing hardens the parts and lets them achieve their optimal mechanical properties. Our custom designed UV curing station consists of an aluminum garbage can, 2 UV lamps and a glass plate. The UV lamps emit light with a wavelength of 405nm. After removing the parts from the isopropyl bath, they are placed on the glass plate, which in turn is positioned at the bottom of the garbage can. After 30 minutes under UV light, the parts can be removed and used for their required function.
 
 ### Packaging
 
@@ -99,6 +102,15 @@ The most money can be saved if swabs are produced. However, since we can print m
 
 ## Discussion and Outlook
 
-Due to the pandemic we had limited access to the laboratory at the university. Therefore we could not test if the production of the printed parts can be realized without RNA contamination. Additionally we had to print our swabs with a different resin, since it was impossible to obtain the surgical guide resin from Formlabs, without exceeding the limit on our budget.
+Due to the pandemic we had limited access to the laboratory at the university. Therefore we could not test if the production of the printed parts can be realized without RNA contamination. However, we were consulted by experts in that domain and ensured that producing RNA free plastic consumables in PCR laboratories is possible.
+Additionally we had to print our swabs with a different resin, since it was impossible to obtain the surgical guide resin from Formlabs, without exceeding the limit on our budget.
 
-Nevertheless we were able to print all required plastic consumables for a PCR test. Parts such as the 0.2 ml Tubes or Swabs can even compete with global market prices.
+Nevertheless, we were able to print all required plastic consumables for a PCR test. Parts such as the 0.2 ml Tubes or Swabs can even compete with global market prices.
+
+## Disclaimer
+
+This is a non commercial project.
+
+The material provided to you "as-is" and without
+warranty of any kind, express, implied or otherwise, including without
+limitation, any warranty of fitness for a particular purpose.
